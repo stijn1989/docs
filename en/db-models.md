@@ -158,7 +158,7 @@ class Invoices extends Model
 public function appendMessage(
     MessageInterface $message
 ): ModelInterface
-```²
+```
 Appends a customized message on the validation process
 
 ```php
