@@ -158,7 +158,7 @@ class Invoices extends Model
 public function appendMessage(
     MessageInterface $message
 ): ModelInterface
-```
+```²
 Appends a customized message on the validation process
 
 ```php
@@ -3164,12 +3164,12 @@ class Invoices extends Model
     public function columnMap()
     {
         return [
-            'inv_id'          => 'id',
-            'inv_cst_id'      => 'customerId',
-            'inv_status_flag' => 'status',
-            'inv_title'       => 'title',
-            'inv_total'       => 'total',
-            'inv_created_at'  => 'createdAt',
+            'id'            => 'inv_id',
+            'customerId'    => 'inv_cst_id',
+            'status'        => 'inv_status_flag',
+            'title'         => 'inv_title',
+            'total'         => 'inv_total',
+            'createdAt'     => 'inv_created_at',
         ];
     }
 }
